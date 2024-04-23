@@ -1,4 +1,7 @@
 .vscode/
 .vscode/*
 
+bin/
+bin/*
+
 *.Identifier

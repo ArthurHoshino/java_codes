@@ -1,4 +1,4 @@
-package poo.menu;
+package commandpattern.menu;
 import javax.swing.JOptionPane;
 
 public class MenuGenerico {

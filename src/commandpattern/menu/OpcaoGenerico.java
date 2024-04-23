@@ -1,4 +1,4 @@
-package poo.menu;
+package commandpattern.menu;
 import java.util.HashMap;
 import javax.swing.JOptionPane;
 
