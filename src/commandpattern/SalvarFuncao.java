@@ -1,3 +1,4 @@
+package commandpattern;
 public class SalvarFuncao {
     public void adicionarMenuUnico(MenuGenerico m) {
         this.menu = m;
