@@ -1,5 +1,7 @@
 package aula;
 import aula.classes.*;
+import aula.heranca.*;
+import aula.heranca.superheranca.*;;
 
 public class App {
     public static void criarConta() {
@@ -58,8 +60,26 @@ public class App {
         c.consultaV();
     }
 
+    public static void criarHeranca() {
+        Animal a = new Animal();
+        Mamifero m = new Mamifero();
+        Homem h = new Homem();
+
+        a.andar();
+        m.andar();
+        h.andar();
+    }
+
+    public static void superHeranca() {
+        Emprestimo e = new Emprestimo();
+
+        System.out.println(e.calculaTaxa());
+    }
+
     public static void main(String[] args) {
         // criarConta();
-        criarTeveEControleRemoto();
+        // criarTeveEControleRemoto();
+        // criarHeranca();
+        superHeranca();
     }
 }
