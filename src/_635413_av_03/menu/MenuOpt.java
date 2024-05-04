@@ -1,7 +1,5 @@
-package atividades._635413_av_03.menu;
+package _635413_av_03.menu;
 import javax.swing.JOptionPane;
-import java.util.*;
-import atividades._635413_av_03.filmes.Filme;
 
 public class MenuOpt {
     private String[] options;
@@ -22,14 +20,10 @@ public class MenuOpt {
     }
 
     public String menu() {
-        // int opt;
         String retorno;
 
         retorno = (String) JOptionPane.showInputDialog(null, "Escolha uma opcao",
             null, JOptionPane.QUESTION_MESSAGE, null, this.options, this.options[0]);
-        
-        // if (retorno != null) opt = Integer.parseInt(String.valueOf(retorno.charAt(0)));
-        // else opt = 0;
 
         return retorno;
     }

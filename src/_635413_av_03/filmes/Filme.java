@@ -1,4 +1,4 @@
-package atividades._635413_av_03.filmes;
+package _635413_av_03.filmes;
 
 public class Filme {
     private String idFilme;
